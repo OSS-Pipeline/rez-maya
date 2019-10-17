@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ADLMCUSTOMENV VERSION="1.0.0.0">
+    <PLATFORM OS="Linux">
+        <KEY ID="ADLM_COMMON_BIN_LOCATION">
+            <STRING>@CMAKE_INSTALL_PREFIX@/Adlm/opt/@ADLM_RELEASE@/bin</STRING>
+        </KEY>
+        <KEY ID="ADLM_COMMON_LIB_LOCATION">
+            <STRING>@CMAKE_INSTALL_PREFIX@/Adlm/opt/@ADLM_RELEASE@/lib64</STRING>
+        </KEY>
+        <KEY ID="ADLM_COMMON_LOCALIZED_DATA_LOCATION">
+            <STRING>@CMAKE_INSTALL_PREFIX@/Adlm/var/opt/@ADLM_RELEASE@</STRING>
+        </KEY>
+        <KEY ID="ADLM_ERROR_TABLE_LOCATION">
+            <STRING>@CMAKE_INSTALL_PREFIX@/Adlm/var/opt/@ADLM_RELEASE@</STRING>
+        </KEY>
+        <KEY ID="ADLM_PIT_FILE_LOCATION">
+            <STRING>@CMAKE_INSTALL_PREFIX@/Adlm/var/opt/Maya@MAYA_MAJOR_VERSION@</STRING>
+        </KEY>
+        <KEY ID="ADLM_CASCADE_FILE_LOCATION">
+            <STRING>$HOME/Adlm</STRING>
+        </KEY>
+        <KEY ID="ADLM_LICENSE_FILE_LOCATION">
+            <STRING>@CMAKE_INSTALL_PREFIX@/maya</STRING>
+        </KEY>
+        <KEY ID="ADLM_APPLICATION_ERROR_LOG_FILE">
+            <STRING>$HOME/Adlm/Adlm_Log.txt</STRING>
+        </KEY>
+    </PLATFORM>
+</ADLMCUSTOMENV>
